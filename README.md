@@ -32,7 +32,10 @@ ADR Manager currently provides the following commands:
 #### Open ADR Manager
 
 <img src="images/main-webview.png" alt=" " width="800"/>
+
 _Main webview of the ADR Manager._
+
+<br/>
 
 When executing this command, the extension will open the main webview panel of the extension which lists every ADR in the ADR Directory it could find. From here, you may add and edit ADRs using the provided editor, or delete ADRs (i.e., move them to the trash can). If the user decides to edit an ADR, the extension will try to open another webview which shows the extension's ADR editor, prefilled with the data from that particular ADR.
 
@@ -48,7 +51,10 @@ See how these actions affect the file contents and the workspace!
 #### Add New ADR
 
 <img src="images/add-webview.png" alt=" " width="800"/>
+
 _ADR editor provided by the ADR Manager._
+
+<br/>
 
 When executing this command (or when clicking on the `Add ADR` button on the main webview), the extension will open a webview panel where the user can create a new ADR using the editor provided by the extension. The user may switch between editor modes to reveal or hide fields of the ADR based on the user's needs.
 
@@ -75,7 +81,7 @@ When executing this command, the extension will ask the user to type in a path t
 
 **Example**: If the root folder of the workspace is 'vscode-adr-manager-introduction' and I enter 'path/to/my/adr-directory', the resulting ADR Directory will be located at 'vscode-adr-manager-introduction/path/to/my/adr-directory/'.
 
-The ADR Directory can also be changed in the [settings](#settings).
+The ADR Directory can also be changed in the settings.
 
 ```
 Try opening the main webview of the ADR Manager.
@@ -105,7 +111,10 @@ ADR Manager provides entries in the context menu of specific files and folders i
 #### Open ADR Manager
 
 <img src="images/context-menu-folder.png" alt=" " width="400"/>
+
 _Context menu of the ADR Directory._
+
+<br/>
 
 When opening the context menu for the ADR Directory or any folder along the way to the ADR Directory, there will be a new entry `Open ADR Manager` at the bottom of the context menu. Upon clicking that entry, the extension will execute the command [Open ADR Manager](#open-adr-manager), showing the main webview of the extension.
 
@@ -119,8 +128,10 @@ in the file explorer and look for the new entry.
 #### Open ADR Manager on This File
 
 <img src="images/context-menu-file.png" alt=" " width="400"/>
+
 _Context menu of a MADR file._
 
+<br/>
 
 When opening the context menu for a Markdown file that loosely follows the MADR naming conventions, there will be a new entry `Open ADR Manager on This File` at the bottom of the context menu. Upon clicking that entry, the extension will execute the command [Open ADR Manager on This File](#open-adr-manager-on-this-file) on the specified file.
 
